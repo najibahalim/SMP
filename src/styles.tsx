@@ -23,6 +23,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       maxWidth:240,
     },
     appBar: {
+      color:'#ffffff',
       [theme.breakpoints.up('sm')]: {
         width: `calc(100% - ${drawerWidth}px)`,
         marginLeft: drawerWidth,
